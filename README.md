@@ -12,5 +12,3 @@
 ---
 
 *If you have any questions about this repository, please contact Holden Coffman at hcoffman6@ivytech.edu*
-
-Test commit

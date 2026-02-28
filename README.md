@@ -7,6 +7,10 @@
 - Project Topic: Printing Multidimensional Arrays
 - Due Date: Sunday, March 8th, 2026 - 11:59 PM
 
+### Explanation of the Task and My Code
+
+This is where I'll write an overview of the problem I was given to solve, and how I solved it with code.
+
 <br><br><br><br><br>
 
 ---

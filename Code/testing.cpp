@@ -19,14 +19,14 @@ int main() {
     max_Y = y;
 
     while(!inFS.eof()) {
-        inFS >> x >> middle >> y;
-        
         if (x > max_X) {
             max_X = x;
         }
         if (y > max_Y) {
             max_Y = y;
         }
+
+        inFS >> x >> middle >> y;
     }
 
     inFS.close();
@@ -46,7 +46,10 @@ int main() {
         coordinatePlane[y][x] = middle;
     }
 
-    // Step 5 - Print the array
+    cout << "Read: x=" << x << " middle = " << middle << " y=" << y << endl;
+    cout<< "Value read into array at these coordinates: " << coordinatePlane[0][27] << endl;
+
+    /*// Step 5 - Print the array
     cout << endl << endl;   // adding some space to improve my screenshot
     for (i = max_Y; i >= 0; --i) {
         for (j = 0; j <= max_X; ++j) {
@@ -56,7 +59,7 @@ int main() {
         cout << endl;
     }
 
-    cout << endl;
+    cout << endl;*/
 
     inFS.close();
 

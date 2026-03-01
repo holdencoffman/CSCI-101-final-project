@@ -66,7 +66,7 @@ int main() {
 
 /*
 Thoughts on how to approach this program...
-1. Run while loops to capture all x values as int and loop for the max value; then repeat for y. Could make this a function prototype at the top
+1. Run while loops to capture all x values as int and loop for the max value; do the same for y
 2. Once max values are determined, use them to create the string array (remember its [rows][columns] which is [y][x] - so it'll be [maxY+1][maxX+1])
     - Edit: I had to go back and use these max values + 1 to declare the array at the top of main() because C++ won't let you use a variable in an array declaration
 3. Once the array has been created, initialize it with spaces using a nested for loop that runs across each column for each row

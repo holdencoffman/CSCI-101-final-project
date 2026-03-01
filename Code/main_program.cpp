@@ -49,6 +49,7 @@ int main() {
     }
 
     // Step 5 - Print the array
+    cout << endl << endl;   // adding some space to improve my screenshot
     for (i = max_Y; i >= 0; --i) {
         for (j = 0; j <= max_X; ++j) {
             cout << coordinatePlane[i][j];

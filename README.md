@@ -11,7 +11,14 @@
 
 This is where I'll write an overview of the problem I was given to solve, and how I solved it with code.
 
-<br><br><br><br><br>
+<br>
+
+## Final Result - Screenshot
+<br>
+
+![Program Result](answer_screenshot.png)
+
+<br>
 
 ---
 
